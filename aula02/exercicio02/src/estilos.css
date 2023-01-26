@@ -1,0 +1,37 @@
+/*https://www.colorzilla.com/gradient-editor/*/
+
+form{
+    width: 544px;
+    margin: 30px auto;
+    background-color: #888;
+}
+
+input[type='text'], input[type='number']{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+
+input[type='submit']{
+    background: linear-gradient(to bottom, #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%);
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #999;
+    margin: 10px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+thead{
+    background-color: #000;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #eee;
+}
