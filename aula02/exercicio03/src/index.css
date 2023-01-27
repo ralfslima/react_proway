@@ -1,0 +1,9 @@
+form{
+  margin: 30px auto;
+  width: 500px;
+  text-align: center;
+}
+
+input, select{
+  margin-top: 10px;
+}
