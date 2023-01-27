@@ -2,6 +2,9 @@
 import React, { Fragment } from 'react';
 import ReactDom from 'react-dom';
 
+// CSS
+import './index.css';
+
 // Componente
 class Componente extends React.Component{
 
