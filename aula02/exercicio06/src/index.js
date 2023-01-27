@@ -16,7 +16,25 @@ class Componente extends React.Component{
   render(){
     return(
       <Fragment>
-        <h1>TESTE!</h1>
+        <form>
+          <input type='text'   placeholder='Nome do produto'  name='produto' className='form-control' />
+          <input type='number' placeholder='Valor do produto' name='produto' className='form-control' />
+          <input type='text'   placeholder='Nome da marca'    name='produto' className='form-control' />
+          <input type='submit' value='Cadastrar'              className='btn btn-primary' />
+        </form>
+
+        <table className='table table-striped'>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Valor</th>
+              <th>Marca</th>
+              <th>Remover</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
+        </table>
       </Fragment>
     )
   }
