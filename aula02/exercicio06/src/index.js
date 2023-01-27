@@ -18,8 +18,8 @@ class Componente extends React.Component{
       <Fragment>
         <form>
           <input type='text'   placeholder='Nome do produto'  name='produto' className='form-control' />
-          <input type='number' placeholder='Valor do produto' name='produto' className='form-control' />
-          <input type='text'   placeholder='Nome da marca'    name='produto' className='form-control' />
+          <input type='number' placeholder='Valor do produto' name='valor'   className='form-control' />
+          <input type='text'   placeholder='Nome da marca'    name='marca'   className='form-control' />
           <input type='submit' value='Cadastrar'              className='btn btn-primary' />
         </form>
 
