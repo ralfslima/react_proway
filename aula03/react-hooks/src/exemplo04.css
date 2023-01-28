@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+}
+
+li{
+    width: 30%;
+    float: left;
+    border: solid 1px #000;
+    margin: 1%;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
